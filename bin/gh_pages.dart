@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:gh_pages/gh_pages.dart';
+import 'package:gh_pages/gh_pages.dart' as ghpages;
 
 void main(List<String> arguments) {
   final parser = ArgParser();
@@ -27,7 +27,6 @@ void main(List<String> arguments) {
   if (results['help']) {
     print(parser.usage);
   } else {
-    final ghpages = GitHubPages();
     ghpages.publish(
       directory: results['dist'],
       branch: results['branch'],
