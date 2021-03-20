@@ -1,5 +1,5 @@
-name: gh_pages
-description: Publish to a gh-pages branch on GitHub (or any other branch on any other remote)
+name: github_pages
+description: Publish your web application to a gh-pages branch on GitHub.
 version: 0.0.1
 homepage: https://github.com/javoeria/gh-pages
 

@@ -1,5 +1,5 @@
 import 'package:args/args.dart';
-import 'package:gh_pages/gh_pages.dart' as ghpages;
+import 'package:github_pages/github_pages.dart' as ghpages;
 
 void main(List<String> arguments) {
   final parser = ArgParser();
