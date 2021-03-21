@@ -6,7 +6,7 @@ Publish web files to a `gh-pages` branch on GitHub (or any other branch anywhere
 
 ## Installation
 
-Add to your pubspec as a dev dependency because it's a command line tool.
+Add it to your `pubspec.yaml` file as a dev dependency because it's a command line tool.
 
 ```yaml
 dev_dependencies:
@@ -15,14 +15,14 @@ dev_dependencies:
 
 ## Usage
 
-To use this package, you need to build a web application bundle.
+To use this package, first you need to build a web application bundle.
 
 ```
 $ flutter build web
 $ flutter pub run github_pages
 ```
 
-Calling this function will create a temporary clone of the current repository, create a `gh-pages` branch if one doesn't already exist, copy over all files from the directory path, commit all changes, and push to the `origin` remote.
+Calling this script will create a temporary clone of the current repository, create a `gh-pages` branch if one doesn't already exist, copy over all files from the directory path, commit all changes, and push to the `origin` remote.
 
 ## Options
 
