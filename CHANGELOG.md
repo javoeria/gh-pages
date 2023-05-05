@@ -1,3 +1,8 @@
+## 2.0.0-dev
+
+- Complete rework of the package.
+- New options available for better configuration.
+
 ## 1.0.0
 
 - Publish stable version.
