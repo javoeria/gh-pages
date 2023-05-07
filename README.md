@@ -16,12 +16,12 @@ Or add it to your `pubspec.yaml` file as a dev dependency.
 
 ```yaml
 dev_dependencies:
-  github_pages:
+  github_pages: ^2.0.0
 ```
 
-## Basic Usage
+## Usage
 
-For example, to publish your web application, you must generate a release build and then run the package with the desired options.
+For example, to publish your web application, you must generate a release build and then run the package with the required directory.
 
 ```console
 $ flutter build web

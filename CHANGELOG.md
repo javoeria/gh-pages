@@ -1,4 +1,4 @@
-## 2.0.0-dev
+## 2.0.0
 
 - Complete rework of the package.
 - New options available for better configuration.
